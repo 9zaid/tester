@@ -1,0 +1,1932 @@
+[
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "1.1 Security Defaults",
+        "Parent Description": "The Azure \"Security Defaults\" recommendations represent an entry-level set of recommendations which will be relevant to organizations and tenants that are either just starting to use Azure as an IaaS solution, or are only utilizing a bare minimum feature set such as the freely licensed tier of Azure Active Directory. Security Defaults recommendations are intended to ensure that these entry-level use cases are still capable of establishing a strong baseline of secure configuration.",
+        "Child": "Ensure Security Defaults is enabled on Azure Active Directory",
+        "Child Description": "Security defaults in Azure Active Directory (Azure AD) make it easier to be secure and help protect your organization. Security defaults contain preconfigured security settings for common attacks. Microsoft is making security defaults available to everyone. The goal is to ensure that all organizations have a basic level of security enabled at no extra cost. You may turn on security defaults in the Azure portal.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "1.1 Security Defaults",
+        "Parent Description": "The Azure \"Security Defaults\" recommendations represent an entry-level set of recommendations which will be relevant to organizations and tenants that are either just starting to use Azure as an IaaS solution, or are only utilizing a bare minimum feature set such as the freely licensed tier of Azure Active Directory. Security Defaults recommendations are intended to ensure that these entry-level use cases are still capable of establishing a strong baseline of secure configuration.",
+        "Child": "Ensure that 'Multi-Factor Auth Status' is 'Enabled' for all Privileged Users",
+        "Child Description": "Enable multi-factor authentication for all roles, groups, and users that have write access or permissions to Azure resources.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "1.1 Security Defaults",
+        "Parent Description": "The Azure \"Security Defaults\" recommendations represent an entry-level set of recommendations which will be relevant to organizations and tenants that are either just starting to use Azure as an IaaS solution, or are only utilizing a bare minimum feature set such as the freely licensed tier of Azure Active Directory. Security Defaults recommendations are intended to ensure that these entry-level use cases are still capable of establishing a strong baseline of secure configuration.",
+        "Child": "Ensure that 'Multi-Factor Auth Status' is 'Enabled' for all Non-Privileged Users",
+        "Child Description": "Enable multi-factor authentication for all non-privileged users.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "1.1 Security Defaults",
+        "Parent Description": "The Azure \"Security Defaults\" recommendations represent an entry-level set of recommendations which will be relevant to organizations and tenants that are either just starting to use Azure as an IaaS solution, or are only utilizing a bare minimum feature set such as the freely licensed tier of Azure Active Directory. Security Defaults recommendations are intended to ensure that these entry-level use cases are still capable of establishing a strong baseline of secure configuration.",
+        "Child": "Ensure that 'Restore multi-factor authentication on all remembered devices' is Enabled",
+        "Child Description": "Do not allow users to remember multi-factor authentication on devices.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "1.2 Conditional Access",
+        "Parent Description": "For most Azure tenants, and certainly for organizations with a significant use of Azure Active Directory, Conditional Access policies are recommended and preferred. To use conditional access policies, a licensing plan is required, and Security Defaults must be disabled.",
+        "Child": "Ensure Trusted Locations Are Defined",
+        "Child Description": "Azure Active Directory Conditional Access allows an organization to configure Named locations and configure whether those locations are trusted or untrusted. These settings provide organizations the means to specify Geographical locations for use in conditional access policies, or define actual IP addresses and IP ranges and whether or not those IP addresses and/or ranges are trusted by the organization.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "1.2 Conditional Access",
+        "Parent Description": "For most Azure tenants, and certainly for organizations with a significant use of Azure Active Directory, Conditional Access policies are recommended and preferred. To use conditional access policies, a licensing plan is required, and Security Defaults must be disabled.",
+        "Child": "Ensure that an exclusionary Geographic Access Policy is considered",
+        "Child Description": "Conditional Access Policies can be used to block access from geographic locations that are deemed out-of-scope for your organization or application. The scope and variables for this policy should be carefully examined and defined.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "1.2 Conditional Access",
+        "Parent Description": "For most Azure tenants, and certainly for organizations with a significant use of Azure Active Directory, Conditional Access policies are recommended and preferred. To use conditional access policies, a licensing plan is required, and Security Defaults must be disabled.",
+        "Child": "Ensure that A Multi-factor Authentication Policy Exists for Administrative Groups",
+        "Child Description": "For designated users, they will be prompted to use their multi-factor authentication (MFA) process on login.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "1.2 Conditional Access",
+        "Parent Description": "For most Azure tenants, and certainly for organizations with a significant use of Azure Active Directory, Conditional Access policies are recommended and preferred. To use conditional access policies, a licensing plan is required, and Security Defaults must be disabled.",
+        "Child": "Ensure that A Multi-factor Authentication Policy Exists for All Users",
+        "Child Description": "For designated users, they will be prompted to use their multi-factor authentication (MFA) process on logins.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "1.2 Conditional Access",
+        "Parent Description": "For most Azure tenants, and certainly for organizations with a significant use of Azure Active Directory, Conditional Access policies are recommended and preferred. To use conditional access policies, a licensing plan is required, and Security Defaults must be disabled.",
+        "Child": "Ensure Multi-factor Authentication is Required for Risky Sign-ins",
+        "Child Description": "For designated users, they will be prompted to use their multi-factor authentication (MFA) process on login.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "1.2 Conditional Access",
+        "Parent Description": "For most Azure tenants, and certainly for organizations with a significant use of Azure Active Directory, Conditional Access policies are recommended and preferred. To use conditional access policies, a licensing plan is required, and Security Defaults must be disabled.",
+        "Child": "Ensure Multi-factor Authentication is Required for Azure Management",
+        "Child Description": "For designated users, they will be prompted to use their multi-factor authentication(MFA) process on logins.",
+        "Grand Child": "relation \"azuread_conditional_access_policy\" does not exist (SQLSTATE 42P01)",
+        "2023-09-07 11:00:00": "Error"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure Access Review is Set Up for External Users in Azure AD Privileged Identity Management",
+        "Child Description": "This recommendation extends guest access review by utilizing the Azure AD Privileged Identity Management feature provided in Azure AD Premium P2. Azure AD is extended to include Azure AD B2B collaboration, allowing you to invite people from outside your organization to be guest users in your cloud account and sign in with their own work, school, or social identities. Guest users allow you to share your company's applications and services with users from any other organization, while maintaining control over your own corporate data. Work with external partners, large or small, even if they don't have Azure AD or an IT department. A simple invitation and redemption process lets partners use their own credentials to access your company's resources a a guest user.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure Guest Users Are Reviewed on a Regular Basis",
+        "Child Description": "Azure AD is extended to include Azure AD B2B collaboration, allowing you to invite people from outside your organization to be guest users in your cloud account and sign in with their own work, school, or social identities. Guest users allow you to share your company's applications and services with users from any other organization, while maintaining control over your own corporate data. Work with external partners, large or small, even if they don't have Azure AD or an IT department. A simple invitation and redemption process lets partners use their own credentials to access your company's resources as a guest user. Guest users in every subscription should be review on a regular basis to ensure that inactive and unneeded accounts are removed.",
+        "Grand Child": "relation \"azuread_user\" does not exist (SQLSTATE 42P01)",
+        "2023-09-07 11:00:00": "Error"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that 'Allow users to remember multi-factor authentication on devices they trust' is 'Disabled'",
+        "Child Description": "Do not allow users to remember multi-factor authentication on devices.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure That 'Number of methods required to reset' is set to '2'",
+        "Child Description": "Ensures that two alternate forms of identification are provided before allowing a password reset.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that a Custom Bad Password List is set to 'Enforce' for your Organization",
+        "Child Description": "Microsoft Azure creates a default bad password policy that is already applied to Azure administrative and normal user accounts. This is not applied to user accounts that are synced from an on-premise Active Directory unless Azure AD Connect is used and you enable EnforceCloudPasswordPolicyForPasswordSyncedUsers. Please see the list in default values on the specifics of this policy.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that 'Number of days before users are asked to reconfirm their authentication information' is not set to '0'",
+        "Child Description": "Ensure that the number of days before users are asked to re-confirm their authentication information is not set to 0.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that 'Notify users on password resets?' is set to 'Yes'",
+        "Child Description": "Ensure that users are notified on their primary and secondary emails on password resets.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure That 'Notify all admins when other admins reset their password?' is set to 'Yes'",
+        "Child Description": "Ensure that all administrators are notified if any other administrator resets their password.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure That ‘Users Can Consent to Apps Accessing Company Data on Their Behalf’ Is Set To ‘Allow for Verified Publishers’",
+        "Child Description": "Allow users to provide consent for selected permissions when a request is coming from a verified publisher.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that 'Users can consent to apps accessing company data on their behalf' is set to 'No'",
+        "Child Description": "Require administrators to provide consent for the apps before use.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that 'Users can add gallery apps to My Apps' is set to 'No'",
+        "Child Description": "Require administrators to provide consent for the apps before use.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure That ‘Users Can Register Applications’ Is Set to ‘No’",
+        "Child Description": "Require administrators or appropriately delegated users to register third-party applications.",
+        "Grand Child": "relation \"azuread_authorization_policy\" does not exist (SQLSTATE 42P01)",
+        "2023-09-07 11:00:00": "Error"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure That 'Guest users access restrictions' is set to 'Guest user access is restricted to properties and memberships of their own directory objects'",
+        "Child Description": "Limit guest user permissions.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that 'Guest invite restrictions' is set to 'Only users assigned to specific admin roles can invite guest users'",
+        "Child Description": "Restrict invitations to users with specific administrative roles only.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure That 'Restrict access to Azure AD administration portal' is Set to 'Yes'",
+        "Child Description": "Restrict access to the Azure AD administration portal to administrators only.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that 'Restrict user ability to access groups features in the Access Pane' is Set to 'Yes'",
+        "Child Description": "Restricts group creation to administrators with permissions only.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that 'Users can create security groups in Azure portals, API or PowerShell' is set to 'No'",
+        "Child Description": "Restrict security group creation to administrators only.",
+        "Grand Child": "relation \"azuread_authorization_policy\" does not exist (SQLSTATE 42P01)",
+        "2023-09-07 11:00:00": "Error"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that 'Owners can manage group membership requests in the Access Panel' is set to 'No'",
+        "Child Description": "Restrict security group management to administrators only.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that 'Users can create Microsoft 365 groups in Azure portals, API or PowerShell' is set to 'No'",
+        "Child Description": "Restrict Microsoft 365 group creation to administrators only.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that 'Require Multi-Factor Authentication to register or join devices with Azure AD' is set to 'Yes'",
+        "Child Description": "Joining or registering devices to the active directory should require Multi-factor authentication.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure That No Custom Subscription Owner Roles Are Created",
+        "Child Description": "Subscription ownership should not include permission to create custom owner roles. The principle of least privilege should be followed and only necessary privileges should be assigned instead of allowing full administrative access.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure a Custom Role is Assigned Permissions for Administering Resource Locks",
+        "Child Description": "Resource locking is a powerful protection mechanism that can prevent inadvertent modification/deletion of resources within Azure subscriptions/Resource Groups and is a recommended NIST configuration.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "1 Identity and Access Management",
+        "Grand Parent Description": "This section covers security recommendations to set identity and access management policies on an Azure Subscription. Identity and Access Management policies are the first step towards a defense-in-depth approach to securing an Azure Cloud Platform environment.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure That ‘Subscription Entering AAD Directory’ and ‘Subscription Leaving AAD Directory’ Is Set To ‘Permit No One’",
+        "Child Description": "Users who are set as subscription owners are able to make administrative changes to the subscriptions and move them into and out of Azure Active Directories.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "2 Microsoft Defender for Cloud",
+        "Grand Parent Description": "This section covers recommendations to consider for tenant-wide security policies and plans related to Microsoft Defender. Please note that because Microsoft Defender products require additional licensing, all Microsoft Defender plan recommendations in subsection 2.1 are assigned as \"Level 2\".",
+        "Parent": "2.1 Defender Plans",
+        "Parent Description": "This subsection is dedicated to providing guidance on Microsoft Defender for Cloud product plans. This guidance is intended to ensure that - at a minimum - the protective measures offered by these plans are being considered. Organizations may find that they have existing products or services that provide the same utility as some Microsoft Defender for Cloud products. Security and Administrative personnel need to make the determination on their organization's behalf regarding which - if any - of these recommendations are relevant to their organization's needs. In consideration of the above, and because of the potential for increased cost and complexity, please be aware that all Defender Plan recommendations are profiled as 'Level 2' recommendations.",
+        "Child": "Ensure That Microsoft Defender for Servers Is Set to 'On''",
+        "Child Description": "Turning on Microsoft Defender for Servers enables threat detection for Servers, providing threat intelligence, anomaly detection, and behavior analytics in the Microsoft Defender for Cloud.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "2 Microsoft Defender for Cloud",
+        "Grand Parent Description": "This section covers recommendations to consider for tenant-wide security policies and plans related to Microsoft Defender. Please note that because Microsoft Defender products require additional licensing, all Microsoft Defender plan recommendations in subsection 2.1 are assigned as \"Level 2\".",
+        "Parent": "2.1 Defender Plans",
+        "Parent Description": "This subsection is dedicated to providing guidance on Microsoft Defender for Cloud product plans. This guidance is intended to ensure that - at a minimum - the protective measures offered by these plans are being considered. Organizations may find that they have existing products or services that provide the same utility as some Microsoft Defender for Cloud products. Security and Administrative personnel need to make the determination on their organization's behalf regarding which - if any - of these recommendations are relevant to their organization's needs. In consideration of the above, and because of the potential for increased cost and complexity, please be aware that all Defender Plan recommendations are profiled as 'Level 2' recommendations.",
+        "Child": "Ensure That Microsoft Defender for App Services Is Set To 'On'",
+        "Child Description": "Turning on Microsoft Defender for App Service enables threat detection for App Service, providing threat intelligence, anomaly detection, and behavior analytics in the Microsoft Defender for Cloud.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "2 Microsoft Defender for Cloud",
+        "Grand Parent Description": "This section covers recommendations to consider for tenant-wide security policies and plans related to Microsoft Defender. Please note that because Microsoft Defender products require additional licensing, all Microsoft Defender plan recommendations in subsection 2.1 are assigned as \"Level 2\".",
+        "Parent": "2.1 Defender Plans",
+        "Parent Description": "This subsection is dedicated to providing guidance on Microsoft Defender for Cloud product plans. This guidance is intended to ensure that - at a minimum - the protective measures offered by these plans are being considered. Organizations may find that they have existing products or services that provide the same utility as some Microsoft Defender for Cloud products. Security and Administrative personnel need to make the determination on their organization's behalf regarding which - if any - of these recommendations are relevant to their organization's needs. In consideration of the above, and because of the potential for increased cost and complexity, please be aware that all Defender Plan recommendations are profiled as 'Level 2' recommendations.",
+        "Child": "Ensure That Microsoft Defender for Databases Is Set To 'On'",
+        "Child Description": "Turning on Microsoft Defender for Databases enables threat detection for the instances running your database software. This provides threat intelligence, anomaly detection, and behavior analytics in the Azure Microsoft Defender for Cloud. Instead of being enabled on services like Platform as a Service (PaaS), this implementation will run within your instances as Infrastructure as a Service (IaaS) on the Operating Systems hosting your databases.",
+        "Grand Child": "Azure Defender off for Databases.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "2 Microsoft Defender for Cloud",
+        "Grand Parent Description": "This section covers recommendations to consider for tenant-wide security policies and plans related to Microsoft Defender. Please note that because Microsoft Defender products require additional licensing, all Microsoft Defender plan recommendations in subsection 2.1 are assigned as \"Level 2\".",
+        "Parent": "2.1 Defender Plans",
+        "Parent Description": "This subsection is dedicated to providing guidance on Microsoft Defender for Cloud product plans. This guidance is intended to ensure that - at a minimum - the protective measures offered by these plans are being considered. Organizations may find that they have existing products or services that provide the same utility as some Microsoft Defender for Cloud products. Security and Administrative personnel need to make the determination on their organization's behalf regarding which - if any - of these recommendations are relevant to their organization's needs. In consideration of the above, and because of the potential for increased cost and complexity, please be aware that all Defender Plan recommendations are profiled as 'Level 2' recommendations.",
+        "Child": "Ensure That Microsoft Defender for Azure SQL Databases Is Set To 'On'",
+        "Child Description": "Turning on Microsoft Defender for Azure SQL Databases enables threat detection for Azure SQL database servers, providing threat intelligence, anomaly detection, and behavior analytics in the Microsoft Defender for Cloud.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "2 Microsoft Defender for Cloud",
+        "Grand Parent Description": "This section covers recommendations to consider for tenant-wide security policies and plans related to Microsoft Defender. Please note that because Microsoft Defender products require additional licensing, all Microsoft Defender plan recommendations in subsection 2.1 are assigned as \"Level 2\".",
+        "Parent": "2.1 Defender Plans",
+        "Parent Description": "This subsection is dedicated to providing guidance on Microsoft Defender for Cloud product plans. This guidance is intended to ensure that - at a minimum - the protective measures offered by these plans are being considered. Organizations may find that they have existing products or services that provide the same utility as some Microsoft Defender for Cloud products. Security and Administrative personnel need to make the determination on their organization's behalf regarding which - if any - of these recommendations are relevant to their organization's needs. In consideration of the above, and because of the potential for increased cost and complexity, please be aware that all Defender Plan recommendations are profiled as 'Level 2' recommendations.",
+        "Child": "Ensure That Microsoft Defender for SQL Servers on Machines Is Set To 'On'",
+        "Child Description": "Turning on Microsoft Defender for SQL servers on machines enables threat detection for SQL servers on machines, providing threat intelligence, anomaly detection, and behavior analytics in the Microsoft Defender for Cloud.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "2 Microsoft Defender for Cloud",
+        "Grand Parent Description": "This section covers recommendations to consider for tenant-wide security policies and plans related to Microsoft Defender. Please note that because Microsoft Defender products require additional licensing, all Microsoft Defender plan recommendations in subsection 2.1 are assigned as \"Level 2\".",
+        "Parent": "2.1 Defender Plans",
+        "Parent Description": "This subsection is dedicated to providing guidance on Microsoft Defender for Cloud product plans. This guidance is intended to ensure that - at a minimum - the protective measures offered by these plans are being considered. Organizations may find that they have existing products or services that provide the same utility as some Microsoft Defender for Cloud products. Security and Administrative personnel need to make the determination on their organization's behalf regarding which - if any - of these recommendations are relevant to their organization's needs. In consideration of the above, and because of the potential for increased cost and complexity, please be aware that all Defender Plan recommendations are profiled as 'Level 2' recommendations.",
+        "Child": "Ensure That Microsoft Defender for Open-Source Relational Databases Is Set To 'On'",
+        "Child Description": "Turning on Microsoft Defender for Open-source relational databases enables threat detection for Open-source relational databases, providing threat intelligence, anomaly detection, and behavior analytics in the Microsoft Defender for Cloud.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "2 Microsoft Defender for Cloud",
+        "Grand Parent Description": "This section covers recommendations to consider for tenant-wide security policies and plans related to Microsoft Defender. Please note that because Microsoft Defender products require additional licensing, all Microsoft Defender plan recommendations in subsection 2.1 are assigned as \"Level 2\".",
+        "Parent": "2.1 Defender Plans",
+        "Parent Description": "This subsection is dedicated to providing guidance on Microsoft Defender for Cloud product plans. This guidance is intended to ensure that - at a minimum - the protective measures offered by these plans are being considered. Organizations may find that they have existing products or services that provide the same utility as some Microsoft Defender for Cloud products. Security and Administrative personnel need to make the determination on their organization's behalf regarding which - if any - of these recommendations are relevant to their organization's needs. In consideration of the above, and because of the potential for increased cost and complexity, please be aware that all Defender Plan recommendations are profiled as 'Level 2' recommendations.",
+        "Child": "Ensure That Microsoft Defender for Storage Is Set To 'On'",
+        "Child Description": "Turning on Microsoft Defender for Storage enables threat detection for Storage, providing threat intelligence, anomaly detection, and behavior analytics in the Microsoft Defender for Cloud.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "2 Microsoft Defender for Cloud",
+        "Grand Parent Description": "This section covers recommendations to consider for tenant-wide security policies and plans related to Microsoft Defender. Please note that because Microsoft Defender products require additional licensing, all Microsoft Defender plan recommendations in subsection 2.1 are assigned as \"Level 2\".",
+        "Parent": "2.1 Defender Plans",
+        "Parent Description": "This subsection is dedicated to providing guidance on Microsoft Defender for Cloud product plans. This guidance is intended to ensure that - at a minimum - the protective measures offered by these plans are being considered. Organizations may find that they have existing products or services that provide the same utility as some Microsoft Defender for Cloud products. Security and Administrative personnel need to make the determination on their organization's behalf regarding which - if any - of these recommendations are relevant to their organization's needs. In consideration of the above, and because of the potential for increased cost and complexity, please be aware that all Defender Plan recommendations are profiled as 'Level 2' recommendations.",
+        "Child": "Ensure That Microsoft Defender for Containers Is Set To 'On'",
+        "Child Description": "Turning on Microsoft Defender for Containers enables threat detection for Container Registries including Kubernetes, providing threat intelligence, anomaly detection, and behavior analytics in the Microsoft Defender for Cloud.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "2 Microsoft Defender for Cloud",
+        "Grand Parent Description": "This section covers recommendations to consider for tenant-wide security policies and plans related to Microsoft Defender. Please note that because Microsoft Defender products require additional licensing, all Microsoft Defender plan recommendations in subsection 2.1 are assigned as \"Level 2\".",
+        "Parent": "2.1 Defender Plans",
+        "Parent Description": "This subsection is dedicated to providing guidance on Microsoft Defender for Cloud product plans. This guidance is intended to ensure that - at a minimum - the protective measures offered by these plans are being considered. Organizations may find that they have existing products or services that provide the same utility as some Microsoft Defender for Cloud products. Security and Administrative personnel need to make the determination on their organization's behalf regarding which - if any - of these recommendations are relevant to their organization's needs. In consideration of the above, and because of the potential for increased cost and complexity, please be aware that all Defender Plan recommendations are profiled as 'Level 2' recommendations.",
+        "Child": "Ensure That Microsoft Defender for Cosmos DB Is Set To 'On'",
+        "Child Description": "Microsoft Defender for Cosmos DB scans all incoming network requests for changes to your virtual machine.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "2 Microsoft Defender for Cloud",
+        "Grand Parent Description": "This section covers recommendations to consider for tenant-wide security policies and plans related to Microsoft Defender. Please note that because Microsoft Defender products require additional licensing, all Microsoft Defender plan recommendations in subsection 2.1 are assigned as \"Level 2\".",
+        "Parent": "2.1 Defender Plans",
+        "Parent Description": "This subsection is dedicated to providing guidance on Microsoft Defender for Cloud product plans. This guidance is intended to ensure that - at a minimum - the protective measures offered by these plans are being considered. Organizations may find that they have existing products or services that provide the same utility as some Microsoft Defender for Cloud products. Security and Administrative personnel need to make the determination on their organization's behalf regarding which - if any - of these recommendations are relevant to their organization's needs. In consideration of the above, and because of the potential for increased cost and complexity, please be aware that all Defender Plan recommendations are profiled as 'Level 2' recommendations.",
+        "Child": "Ensure That Microsoft Defender for Key Vault Is Set To 'On'",
+        "Child Description": "Turning on Microsoft Defender for Key Vault enables threat detection for Key Vault, providing threat intelligence, anomaly detection, and behavior analytics in the Microsoft Defender for Cloud.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "2 Microsoft Defender for Cloud",
+        "Grand Parent Description": "This section covers recommendations to consider for tenant-wide security policies and plans related to Microsoft Defender. Please note that because Microsoft Defender products require additional licensing, all Microsoft Defender plan recommendations in subsection 2.1 are assigned as \"Level 2\".",
+        "Parent": "2.1 Defender Plans",
+        "Parent Description": "This subsection is dedicated to providing guidance on Microsoft Defender for Cloud product plans. This guidance is intended to ensure that - at a minimum - the protective measures offered by these plans are being considered. Organizations may find that they have existing products or services that provide the same utility as some Microsoft Defender for Cloud products. Security and Administrative personnel need to make the determination on their organization's behalf regarding which - if any - of these recommendations are relevant to their organization's needs. In consideration of the above, and because of the potential for increased cost and complexity, please be aware that all Defender Plan recommendations are profiled as 'Level 2' recommendations.",
+        "Child": "Ensure That Microsoft Defender for DNS Is Set To 'On'",
+        "Child Description": "Microsoft Defender for DNS scans all network traffic exiting from within a subscription.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "2 Microsoft Defender for Cloud",
+        "Grand Parent Description": "This section covers recommendations to consider for tenant-wide security policies and plans related to Microsoft Defender. Please note that because Microsoft Defender products require additional licensing, all Microsoft Defender plan recommendations in subsection 2.1 are assigned as \"Level 2\".",
+        "Parent": "2.1 Defender Plans",
+        "Parent Description": "This subsection is dedicated to providing guidance on Microsoft Defender for Cloud product plans. This guidance is intended to ensure that - at a minimum - the protective measures offered by these plans are being considered. Organizations may find that they have existing products or services that provide the same utility as some Microsoft Defender for Cloud products. Security and Administrative personnel need to make the determination on their organization's behalf regarding which - if any - of these recommendations are relevant to their organization's needs. In consideration of the above, and because of the potential for increased cost and complexity, please be aware that all Defender Plan recommendations are profiled as 'Level 2' recommendations.",
+        "Child": "Ensure That Microsoft Defender for IoT Is Set To 'On'",
+        "Child Description": "Microsoft Defender for IoT acts as a central security hub for IoT devices within your organization.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "2 Microsoft Defender for Cloud",
+        "Grand Parent Description": "This section covers recommendations to consider for tenant-wide security policies and plans related to Microsoft Defender. Please note that because Microsoft Defender products require additional licensing, all Microsoft Defender plan recommendations in subsection 2.1 are assigned as \"Level 2\".",
+        "Parent": "2.1 Defender Plans",
+        "Parent Description": "This subsection is dedicated to providing guidance on Microsoft Defender for Cloud product plans. This guidance is intended to ensure that - at a minimum - the protective measures offered by these plans are being considered. Organizations may find that they have existing products or services that provide the same utility as some Microsoft Defender for Cloud products. Security and Administrative personnel need to make the determination on their organization's behalf regarding which - if any - of these recommendations are relevant to their organization's needs. In consideration of the above, and because of the potential for increased cost and complexity, please be aware that all Defender Plan recommendations are profiled as 'Level 2' recommendations.",
+        "Child": "Ensure That Microsoft Defender for Resource Manager Is Set To 'On'",
+        "Child Description": "Microsoft Defender for Resource Manager scans incoming administrative requests to change your infrastructure from both CLI and the Azure portal.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "2 Microsoft Defender for Cloud",
+        "Grand Parent Description": "This section covers recommendations to consider for tenant-wide security policies and plans related to Microsoft Defender. Please note that because Microsoft Defender products require additional licensing, all Microsoft Defender plan recommendations in subsection 2.1 are assigned as \"Level 2\".",
+        "Parent": "2.2 Auto Provisioning",
+        "Parent Description": "Microsoft Defender for Cloud ingests data from agents, extensions, and integrations. Automatic provisioning assists with the deployment and maintenance of agents and extensions required on endpoints such as Azure Virtual Machines.",
+        "Child": "Ensure that Auto provisioning of 'Log Analytics agent for Azure VMs' is Set to 'On'",
+        "Child Description": "Enable automatic provisioning of the monitoring agent to collect security data.",
+        "Grand Child": "Automatic provisioning of monitoring agent is off.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "2 Microsoft Defender for Cloud",
+        "Grand Parent Description": "This section covers recommendations to consider for tenant-wide security policies and plans related to Microsoft Defender. Please note that because Microsoft Defender products require additional licensing, all Microsoft Defender plan recommendations in subsection 2.1 are assigned as \"Level 2\".",
+        "Parent": "2.2 Auto Provisioning",
+        "Parent Description": "Microsoft Defender for Cloud ingests data from agents, extensions, and integrations. Automatic provisioning assists with the deployment and maintenance of agents and extensions required on endpoints such as Azure Virtual Machines.",
+        "Child": "Ensure that Auto provisioning of 'Vulnerability assessment for machines' is Set to 'On'",
+        "Child Description": "Enable automatic provisioning of vulnerability assessment for machines on both Azure and hybrid (Arc enabled) machines.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "2 Microsoft Defender for Cloud",
+        "Grand Parent Description": "This section covers recommendations to consider for tenant-wide security policies and plans related to Microsoft Defender. Please note that because Microsoft Defender products require additional licensing, all Microsoft Defender plan recommendations in subsection 2.1 are assigned as \"Level 2\".",
+        "Parent": "2.2 Auto Provisioning",
+        "Parent Description": "Microsoft Defender for Cloud ingests data from agents, extensions, and integrations. Automatic provisioning assists with the deployment and maintenance of agents and extensions required on endpoints such as Azure Virtual Machines.",
+        "Child": "Ensure that Auto provisioning of 'Microsoft Defender for Containers components' is Set to 'On'",
+        "Child Description": "Enable automatic provisioning of the Microsoft Defender for Containers components.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "2 Microsoft Defender for Cloud",
+        "Grand Parent Description": "This section covers recommendations to consider for tenant-wide security policies and plans related to Microsoft Defender. Please note that because Microsoft Defender products require additional licensing, all Microsoft Defender plan recommendations in subsection 2.1 are assigned as \"Level 2\".",
+        "Parent": "2.3 Email notifications",
+        "Parent Description": "Email notifications are used by Microsoft Defender for Cloud to communicate information and alerts.",
+        "Child": "Ensure That 'All users with the following roles' is set to 'Owner'",
+        "Child Description": "Enable security alert emails to subscription owners.",
+        "Grand Child": "\"All users with the following roles\" not set to Owner.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "2 Microsoft Defender for Cloud",
+        "Grand Parent Description": "This section covers recommendations to consider for tenant-wide security policies and plans related to Microsoft Defender. Please note that because Microsoft Defender products require additional licensing, all Microsoft Defender plan recommendations in subsection 2.1 are assigned as \"Level 2\".",
+        "Parent": "2.3 Email notifications",
+        "Parent Description": "Email notifications are used by Microsoft Defender for Cloud to communicate information and alerts.",
+        "Child": "Ensure 'Additional email addresses' is Configured with a Security Contact Email",
+        "Child Description": "Microsoft Defender for Cloud emails the subscription owners whenever a high-severity alert is triggered for their subscription. You should provide a security contact email address as an additional email address.",
+        "Grand Child": "Additional email addresses not configured.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "2 Microsoft Defender for Cloud",
+        "Grand Parent Description": "This section covers recommendations to consider for tenant-wide security policies and plans related to Microsoft Defender. Please note that because Microsoft Defender products require additional licensing, all Microsoft Defender plan recommendations in subsection 2.1 are assigned as \"Level 2\".",
+        "Parent": "2.3 Email notifications",
+        "Parent Description": "Email notifications are used by Microsoft Defender for Cloud to communicate information and alerts.",
+        "Child": "Ensure That 'Notify about alerts with the following severity' is Set to 'High'",
+        "Child Description": "Enables emailing security alerts to the subscription owner or other designated security contact.",
+        "Grand Child": "\"Notify about alerts with the following severity\" not set to High.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "2 Microsoft Defender for Cloud",
+        "Grand Parent Description": "This section covers recommendations to consider for tenant-wide security policies and plans related to Microsoft Defender. Please note that because Microsoft Defender products require additional licensing, all Microsoft Defender plan recommendations in subsection 2.1 are assigned as \"Level 2\".",
+        "Parent": "2.4 Integrations",
+        "Parent Description": "Microsoft Defender for Cloud ingests data from agents, extensions, and integrations. Integration allows other Azure products to send and receive data with Microsoft Defender for Cloud.",
+        "Child": "Ensure that Microsoft Defender for Cloud Apps integration with Microsoft Defender for Cloud is Selected",
+        "Child Description": "This integration setting enables Microsoft Defender for Cloud Apps (formerly 'Microsoft Cloud App Security' or 'MCAS' - see additional info) to communicate with Microsoft Defender for Cloud.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "2 Microsoft Defender for Cloud",
+        "Grand Parent Description": "This section covers recommendations to consider for tenant-wide security policies and plans related to Microsoft Defender. Please note that because Microsoft Defender products require additional licensing, all Microsoft Defender plan recommendations in subsection 2.1 are assigned as \"Level 2\".",
+        "Parent": "2.4 Integrations",
+        "Parent Description": "Microsoft Defender for Cloud ingests data from agents, extensions, and integrations. Integration allows other Azure products to send and receive data with Microsoft Defender for Cloud.",
+        "Child": "Ensure that Microsoft Defender for Endpoint integration with Microsoft Defender for Cloud is selected",
+        "Child Description": "This integration setting enables Microsoft Defender for Endpoint (formerly 'Advanced Threat Protection' or 'ATP' or 'WDATP' - see additional info) to communicate with Microsoft Defender for Cloud.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "2 Microsoft Defender for Cloud",
+        "Grand Parent Description": "This section covers recommendations to consider for tenant-wide security policies and plans related to Microsoft Defender. Please note that because Microsoft Defender products require additional licensing, all Microsoft Defender plan recommendations in subsection 2.1 are assigned as \"Level 2\".",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Microsoft Defender Recommendation for 'Apply system updates' status is 'Completed'",
+        "Child Description": "Ensure that the latest OS patches for all virtual machines are applied.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "2 Microsoft Defender for Cloud",
+        "Grand Parent Description": "This section covers recommendations to consider for tenant-wide security policies and plans related to Microsoft Defender. Please note that because Microsoft Defender products require additional licensing, all Microsoft Defender plan recommendations in subsection 2.1 are assigned as \"Level 2\".",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure Any of the ASC Default Policy Settings are Not Set to 'Disabled'",
+        "Child Description": "None of the settings offered by ASC Default policy should be set to effect Disabled.",
+        "Grand Child": "Settings enabled for all the parameters.",
+        "2023-09-07 11:00:00": "Ok"
+    },
+    {
+        "Grand Parent": "3 Other Security Considerations",
+        "Grand Parent Description": "This section covers security recommendations to follow to set storage account policies on an Azure Subscription. An Azure storage account provides a unique namespace to store and access Azure Storage data objects.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that 'Secure transfer required' is set to 'Enabled'",
+        "Child Description": "Enable data encryption in transit.",
+        "Grand Child": "cs210032000de891a1b encryption in transit enabled.",
+        "2023-09-07 11:00:00": "Ok"
+    },
+    {
+        "Grand Parent": "3 Other Security Considerations",
+        "Grand Parent Description": "This section covers security recommendations to follow to set storage account policies on an Azure Subscription. An Azure storage account provides a unique namespace to store and access Azure Storage data objects.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that 'Enable Infrastructure Encryption' for Each Storage Account in Azure Storage is Set to ‘enabled’",
+        "Child Description": "Enabling double encryption at the hardware level on top of the default software encryption for Storage Accounts accessing Azure storage solutions.",
+        "Grand Child": "cs210032000de891a1b infrastructure encryption disabled.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "3 Other Security Considerations",
+        "Grand Parent Description": "This section covers security recommendations to follow to set storage account policies on an Azure Subscription. An Azure storage account provides a unique namespace to store and access Azure Storage data objects.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that 'Enable key rotation reminders' is enabled for each Storage Account",
+        "Child Description": "Access Keys authenticate application access requests to data contained in Storage Accounts. A periodic rotation of these keys is recommended to ensure that potentially compromised keys cannot result in a long-term exploitable credential. The Rotation Reminder is an automatic reminder feature for a manual procedure.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "3 Other Security Considerations",
+        "Grand Parent Description": "This section covers security recommendations to follow to set storage account policies on an Azure Subscription. An Azure storage account provides a unique namespace to store and access Azure Storage data objects.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Storage Account Access Keys are Periodically Regenerated",
+        "Child Description": "For increased security, regenerate storage account access keys periodically.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "3 Other Security Considerations",
+        "Grand Parent Description": "This section covers security recommendations to follow to set storage account policies on an Azure Subscription. An Azure storage account provides a unique namespace to store and access Azure Storage data objects.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure Storage Logging is Enabled for Queue Service for 'Read', 'Write', and 'Delete' request",
+        "Child Description": "The Storage Queue service stores messages that may be read by any client who has access to the storage account. A queue can contain an unlimited number of messages, each of which can be up to 64KB in size using version 2011-08-18 or newer. Storage Logging happens server-side and allows details for both successful and failed requests to be recorded in the storage account. These logs allow users to see the details of read, write, and delete operations against the queues. Storage Logging log entries contain the following information about individual requests: Timing information such as start time, end-to-end latency, and server latency, authentication details, concurrency information, and the sizes of the request and response messages.",
+        "Grand Child": "table 'azure_storage_account' column 'queue_logging_retention_enabled' requires hydrate data from getAzureStorageAccountQueueProperties<br> which failed with error storage.AccountsClient#ListKeys: Failure responding to request: StatusCode=403 -- Original Error: autorest/azure: Service returned an error. Status=403 Code=\"AuthorizationFailed\" Message=\"The client '3048e5a6-10f9-4dac-892e-1ff1732f65e2' with object id '3048e5a6-10f9-4dac-892e-1ff1732f65e2' does not have authorization to perform action 'Microsoft.Storage/storageAccounts/listKeys/action' over scope '/subscriptions/195d31b2-d396-4dce-a6b3-d7275f741c2b/resourceGroups/cloud-shell-storage-eastus/providers/Microsoft.Storage/storageAccounts/cs210032000de891a1b' or the scope is invalid. If access was recently granted<br> please refresh your credentials.\".\n (SQLSTATE HV000)",
+        "2023-09-07 11:00:00": "Error"
+    },
+    {
+        "Grand Parent": "3 Other Security Considerations",
+        "Grand Parent Description": "This section covers security recommendations to follow to set storage account policies on an Azure Subscription. An Azure storage account provides a unique namespace to store and access Azure Storage data objects.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Shared Access Signature Tokens Expire Within an Hour",
+        "Child Description": "Expire shared access signature tokens within an hour.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "3 Other Security Considerations",
+        "Grand Parent Description": "This section covers security recommendations to follow to set storage account policies on an Azure Subscription. An Azure storage account provides a unique namespace to store and access Azure Storage data objects.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that 'Public access level' is disabled for storage accounts with blob containers",
+        "Child Description": "Disallowing public access for a storage account overrides the public access settings for individual containers in that storage account.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "3 Other Security Considerations",
+        "Grand Parent Description": "This section covers security recommendations to follow to set storage account policies on an Azure Subscription. An Azure storage account provides a unique namespace to store and access Azure Storage data objects.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure Default Network Access Rule for Storage Accounts is Set to Deny",
+        "Child Description": "Restricting default network access helps to provide a new layer of security, since storage accounts accept connections from clients on any network. To limit access to selected networks, the default action must be changed.",
+        "Grand Child": "cs210032000de891a1b allows traffic from all networks.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "3 Other Security Considerations",
+        "Grand Parent Description": "This section covers security recommendations to follow to set storage account policies on an Azure Subscription. An Azure storage account provides a unique namespace to store and access Azure Storage data objects.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure 'Allow Azure services on the trusted services list to access this storage account' is Enabled for Storage Account Access",
+        "Child Description": "Some Azure services that interact with storage accounts operate from networks that can't be granted access through network rules. To help this type of service work as intended, allow the set of trusted Azure services to bypass the network rules. These services will then use strong authentication to access the storage account. If the Allow trusted Azure services exception is enabled, the following services are granted access to the storage account: Azure Backup, Azure Site Recovery, Azure DevTest Labs, Azure Event Grid, Azure Event Hubs, Azure Networking, Azure Monitor, and Azure SQL Data Warehouse (when registered in the subscription).",
+        "Grand Child": "cs210032000de891a1b trusted Microsoft services enabled.",
+        "2023-09-07 11:00:00": "Ok"
+    },
+    {
+        "Grand Parent": "3 Other Security Considerations",
+        "Grand Parent Description": "This section covers security recommendations to follow to set storage account policies on an Azure Subscription. An Azure storage account provides a unique namespace to store and access Azure Storage data objects.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure Private Endpoints are used to access Storage Accounts",
+        "Child Description": "Use private endpoints for your Azure Storage accounts to allow clients and services to securely access data located over a network via an encrypted Private Link. To do this, the private endpoint uses an IP address from the VNet for each service. Network traffic between disparate services securely traverses encrypted over the VNet. This VNet can also link addressing space, extending your network and accessing resources on it. Similarly, it can be a tunnel through public networks to connect remote infrastructures together. This creates further security through segmenting network traffic and preventing outside sources from accessing it.",
+        "Grand Child": "cs210032000de891a1b not uses private link.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "3 Other Security Considerations",
+        "Grand Parent Description": "This section covers security recommendations to follow to set storage account policies on an Azure Subscription. An Azure storage account provides a unique namespace to store and access Azure Storage data objects.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure Soft Delete is Enabled for Azure Containers and Blob Storage",
+        "Child Description": "The Azure Storage blobs contain data like ePHI or Financial, which can be secret or personal. Data that is erroneously modified or deleted by an application or other storage account user will cause data loss or unavailability. It is recommended that both Azure Containers with attached Blob Storage and standalone containers with Blob Storage be made recoverable by enabling the soft delete configuration. This is to save and recover data when blobs or blob snapshots are deleted.",
+        "Grand Child": "cs210032000de891a1b blobs soft delete disabled.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "3 Other Security Considerations",
+        "Grand Parent Description": "This section covers security recommendations to follow to set storage account policies on an Azure Subscription. An Azure storage account provides a unique namespace to store and access Azure Storage data objects.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure Storage for Critical Data are Encrypted with Customer Managed Keys",
+        "Child Description": "Enable sensitive data encryption at rest using Customer Managed Keys rather than Microsoft Managed keys.",
+        "Grand Child": "cs210032000de891a1b not encrypted with CMK.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "3 Other Security Considerations",
+        "Grand Parent Description": "This section covers security recommendations to follow to set storage account policies on an Azure Subscription. An Azure storage account provides a unique namespace to store and access Azure Storage data objects.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure Storage logging is Enabled for Blob Service for 'Read', 'Write', and 'Delete' requests",
+        "Child Description": "The Storage Blob service provides scalable, cost-efficient object storage in the cloud. Storage Logging happens server-side and allows details for both successful and failed requests to be recorded in the storage account. These logs allow users to see the details of read, write, and delete operations against the blobs. Storage Logging log entries contain the following information about individual requests: timing information such as start time, end-to-end latency, and server latency; authentication details; concurrency information; and the sizes of the request and response messages.",
+        "Grand Child": "storage.AccountsClient#ListKeys: Failure responding to request: StatusCode=403 -- Original Error: autorest/azure: Service returned an error. Status=403 Code=\"AuthorizationFailed\" Message=\"The client '3048e5a6-10f9-4dac-892e-1ff1732f65e2' with object id '3048e5a6-10f9-4dac-892e-1ff1732f65e2' does not have authorization to perform action 'Microsoft.Storage/storageAccounts/listKeys/action' over scope '/subscriptions/195d31b2-d396-4dce-a6b3-d7275f741c2b/resourceGroups/cloud-shell-storage-eastus/providers/Microsoft.Storage/storageAccounts/cs210032000de891a1b' or the scope is invalid. If access was recently granted<br> please refresh your credentials.\" (SQLSTATE HV000)",
+        "2023-09-07 11:00:00": "Error"
+    },
+    {
+        "Grand Parent": "3 Other Security Considerations",
+        "Grand Parent Description": "This section covers security recommendations to follow to set storage account policies on an Azure Subscription. An Azure storage account provides a unique namespace to store and access Azure Storage data objects.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure Storage Logging is Enabled for Table Service for 'Read', 'Write', and 'Delete' Requests",
+        "Child Description": "Azure Table storage is a service that stores structured NoSQL data in the cloud, providing a key/attribute store with a schema-less design. Storage Logging happens server-side and allows details for both successful and failed requests to be recorded in the storage account. These logs allow users to see the details of read, write, and delete operations against the tables. Storage Logging log entries contain the following information about individual requests: timing information such as start time, end-to-end latency, and server latency; authentication details; concurrency information; and the sizes of the request and response messages.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "3 Other Security Considerations",
+        "Grand Parent Description": "This section covers security recommendations to follow to set storage account policies on an Azure Subscription. An Azure storage account provides a unique namespace to store and access Azure Storage data objects.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure the 'Minimum TLS version' for storage accounts is set to 'Version 1.2'",
+        "Child Description": "In some cases, Azure Storage sets the minimum TLS version to be version 1.0 by default. TLS 1.0 is a legacy version and has known vulnerabilities. This minimum TLS version can be configured to be later protocols such as TLS 1.2.",
+        "Grand Child": "cs210032000de891a1b minimum TLS version set to TLS1_2.",
+        "2023-09-07 11:00:00": "Ok"
+    },
+    {
+        "Grand Parent": "",
+        "Grand Parent Description": "",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that 'Auditing' is set to 'On'",
+        "Child Description": "Enable auditing on SQL Servers.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "",
+        "Grand Parent Description": "",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure no Azure SQL Databases allow ingress from 0.0.0.0/0 (ANY IP)",
+        "Child Description": "Ensure that no SQL Databases allow ingress from 0.0.0.0/0 (ANY IP).",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "",
+        "Grand Parent Description": "",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure SQL server's Transparent Data Encryption (TDE) protector is encrypted with Customer-managed key",
+        "Child Description": "Transparent Data Encryption (TDE) with Customer-managed key support provides increased transparency and control over the TDE Protector, increased security with an HSM-backed external service, and promotion of separation of duties.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "",
+        "Grand Parent Description": "",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Azure Active Directory Admin is Configured for SQL Servers",
+        "Child Description": "Use Azure Active Directory Authentication for authentication with SQL Database to manage credentials in a single place.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "",
+        "Grand Parent Description": "",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that 'Data encryption' is set to 'On' on a SQL Database",
+        "Child Description": "Enable Transparent Data Encryption on every SQL server.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "",
+        "Grand Parent Description": "",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that 'Auditing' Retention is 'greater than 90 days'",
+        "Child Description": "SQL Server Audit Retention should be configured to be greater than 90 days.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "",
+        "Grand Parent Description": "",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Microsoft Defender for SQL is set to 'On' for critical SQL Servers",
+        "Child Description": "Enable \"Azure Defender for SQL\" on critical SQL Servers.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "",
+        "Grand Parent Description": "",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Vulnerability Assessment (VA) is enabled on a SQL server by setting a Storage Account",
+        "Child Description": "Enable Vulnerability Assessment (VA) service scans for critical SQL servers and corresponding SQL databases.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "",
+        "Grand Parent Description": "",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Vulnerability Assessment (VA) setting 'Periodic recurring scans' is set to 'on' for each SQL server",
+        "Child Description": "Enable Vulnerability Assessment (VA) Periodic recurring scans for critical SQL servers and corresponding SQL databases.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "",
+        "Grand Parent Description": "",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Vulnerability Assessment (VA) setting 'Send scan reports to' is configured for a SQL server",
+        "Child Description": "Configure 'Send scan reports to' with email ids of concerned data owners/stakeholders for a critical SQL servers.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "",
+        "Grand Parent Description": "",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Vulnerability Assessment (VA) setting 'Also send email notifications to admins and subscription owners' is set for each SQL Server",
+        "Child Description": "Enable Vulnerability Assessment (VA) setting 'Also send email notifications to admins and subscription owners'.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "4 Database Services",
+        "Grand Parent Description": "This section covers security recommendations to follow to set general database services policies on an Azure Subscription. Subsections will address specific database types.",
+        "Parent": "4.3 PostgreSQL Database Server",
+        "Parent Description": "This section groups security best practices/recommendations for Azure PostgreSQL Database Servers.",
+        "Child": "Ensure 'Enforce SSL connection' is set to 'ENABLED' for PostgreSQL Database Server",
+        "Child Description": "Enable SSL connection on PostgreSQL Servers.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "4 Database Services",
+        "Grand Parent Description": "This section covers security recommendations to follow to set general database services policies on an Azure Subscription. Subsections will address specific database types.",
+        "Parent": "4.3 PostgreSQL Database Server",
+        "Parent Description": "This section groups security best practices/recommendations for Azure PostgreSQL Database Servers.",
+        "Child": "Ensure Server Parameter 'log_checkpoints' is set to 'ON' for PostgreSQL Database Server",
+        "Child Description": "Enable log_checkpoints on PostgreSQL Servers.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "4 Database Services",
+        "Grand Parent Description": "This section covers security recommendations to follow to set general database services policies on an Azure Subscription. Subsections will address specific database types.",
+        "Parent": "4.3 PostgreSQL Database Server",
+        "Parent Description": "This section groups security best practices/recommendations for Azure PostgreSQL Database Servers.",
+        "Child": "Ensure server parameter 'log_connections' is set to 'ON' for PostgreSQL Database Server",
+        "Child Description": "Enable log_connections on PostgreSQL Servers.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "4 Database Services",
+        "Grand Parent Description": "This section covers security recommendations to follow to set general database services policies on an Azure Subscription. Subsections will address specific database types.",
+        "Parent": "4.3 PostgreSQL Database Server",
+        "Parent Description": "This section groups security best practices/recommendations for Azure PostgreSQL Database Servers.",
+        "Child": "Ensure server parameter 'log_disconnections' is set to 'ON' for PostgreSQL Database Server",
+        "Child Description": "Enable log_disconnections on PostgreSQL Servers.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "4 Database Services",
+        "Grand Parent Description": "This section covers security recommendations to follow to set general database services policies on an Azure Subscription. Subsections will address specific database types.",
+        "Parent": "4.3 PostgreSQL Database Server",
+        "Parent Description": "This section groups security best practices/recommendations for Azure PostgreSQL Database Servers.",
+        "Child": "Ensure server parameter 'connection_throttling' is set to 'ON' for PostgreSQL Database Server",
+        "Child Description": "Enable connection_throttling on PostgreSQL Servers.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "4 Database Services",
+        "Grand Parent Description": "This section covers security recommendations to follow to set general database services policies on an Azure Subscription. Subsections will address specific database types.",
+        "Parent": "4.3 PostgreSQL Database Server",
+        "Parent Description": "This section groups security best practices/recommendations for Azure PostgreSQL Database Servers.",
+        "Child": "Ensure Server Parameter 'log_retention_days' is greater than 3 days for PostgreSQL Database Server",
+        "Child Description": "Enable log_retention_days on PostgreSQL Servers.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "4 Database Services",
+        "Grand Parent Description": "This section covers security recommendations to follow to set general database services policies on an Azure Subscription. Subsections will address specific database types.",
+        "Parent": "4.3 PostgreSQL Database Server",
+        "Parent Description": "This section groups security best practices/recommendations for Azure PostgreSQL Database Servers.",
+        "Child": "Ensure 'Allow access to Azure services' for PostgreSQL Database Server is disabled",
+        "Child Description": "Disable access from Azure services to PostgreSQL Database Server.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "4 Database Services",
+        "Grand Parent Description": "This section covers security recommendations to follow to set general database services policies on an Azure Subscription. Subsections will address specific database types.",
+        "Parent": "4.3 PostgreSQL Database Server",
+        "Parent Description": "This section groups security best practices/recommendations for Azure PostgreSQL Database Servers.",
+        "Child": "Ensure 'Infrastructure double encryption' for PostgreSQL Database Server is 'Enabled'",
+        "Child Description": "Enable encryption at rest for PostgreSQL Databases.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "4 Database Services",
+        "Grand Parent Description": "This section covers security recommendations to follow to set general database services policies on an Azure Subscription. Subsections will address specific database types.",
+        "Parent": "4.4 MySQL Database",
+        "Parent Description": "This section groups security best practices/recommendations for Azure MySQL Database Servers.",
+        "Child": "Ensure 'Enforce SSL connection' is set to 'Enabled' for Standard MySQL Database Server",
+        "Child Description": "Enable SSL connection on MySQL Servers.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "4 Database Services",
+        "Grand Parent Description": "This section covers security recommendations to follow to set general database services policies on an Azure Subscription. Subsections will address specific database types.",
+        "Parent": "4.4 MySQL Database",
+        "Parent Description": "This section groups security best practices/recommendations for Azure MySQL Database Servers.",
+        "Child": "Ensure 'TLS Version' is set to 'TLSV1.2' for MySQL flexible Database Server",
+        "Child Description": "Ensure TLS version on MySQL flexible servers is set to the default value.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "4 Database Services",
+        "Grand Parent Description": "This section covers security recommendations to follow to set general database services policies on an Azure Subscription. Subsections will address specific database types.",
+        "Parent": "4.4 MySQL Database",
+        "Parent Description": "This section groups security best practices/recommendations for Azure MySQL Database Servers.",
+        "Child": "Ensure server parameter 'audit_log_enabled' is set to 'ON' for MySQL Database Server",
+        "Child Description": "Enable audit_log_enabled on MySQL Servers.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "4 Database Services",
+        "Grand Parent Description": "This section covers security recommendations to follow to set general database services policies on an Azure Subscription. Subsections will address specific database types.",
+        "Parent": "4.4 MySQL Database",
+        "Parent Description": "This section groups security best practices/recommendations for Azure MySQL Database Servers.",
+        "Child": "Ensure 'TLS Version' is set to 'TLSV1.2' for MySQL flexible Database Server",
+        "Child Description": "Ensure TLS version on MySQL flexible servers is set to the default value.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "4 Database Services",
+        "Grand Parent Description": "This section covers security recommendations to follow to set general database services policies on an Azure Subscription. Subsections will address specific database types.",
+        "Parent": "4.5 Cosmos DB",
+        "Parent Description": "This section groups security best practices/recommendations for Azure Cosmos DB Database Servers.",
+        "Child": "Ensure That 'Firewalls & Networks' Is Limited to Use Selected Networks Instead of All Networks",
+        "Child Description": "",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "4 Database Services",
+        "Grand Parent Description": "This section covers security recommendations to follow to set general database services policies on an Azure Subscription. Subsections will address specific database types.",
+        "Parent": "4.5 Cosmos DB",
+        "Parent Description": "This section groups security best practices/recommendations for Azure Cosmos DB Database Servers.",
+        "Child": "Ensure That Private Endpoints Are Used Where Possible",
+        "Child Description": "Based on business needs or criticality of data/databases hosted a SQL server, it is recommended that the TDE protector is encrypted by a key that is managed by the data owner (Customer-managed key).",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "5 Logging and Monitoring",
+        "Grand Parent Description": "This section covers security recommendations to follow to set logging and monitoring policies on an Azure Subscription.",
+        "Parent": "5.1 Configuring Diagnostic Settings",
+        "Parent Description": "The Azure Diagnostic Settings capture control/management activities performed on a subscription or Azure AD Tenant. By default, the Azure Portal retains activity logs only for 90 days. The Diagnostic Settings define the type of events that are stored or streamed and the outputs—storage account, log analytics workspace, event hub, and others. The Diagnostic Settings, if configured properly, can ensure that all logs are retained for longer duration. This section has recommendations for correctly configuring the Diagnostic Settings so that all logs captured are retained for longer periods.",
+        "Child": "Ensure that a 'Diagnostics Setting' exists",
+        "Child Description": "Enable Diagnostic settings for exporting activity logs. Diagnostic settings are available for each individual resource within a subscription. Settings should be configured for all appropriate resources for your environment.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "5 Logging and Monitoring",
+        "Grand Parent Description": "This section covers security recommendations to follow to set logging and monitoring policies on an Azure Subscription.",
+        "Parent": "5.1 Configuring Diagnostic Settings",
+        "Parent Description": "The Azure Diagnostic Settings capture control/management activities performed on a subscription or Azure AD Tenant. By default, the Azure Portal retains activity logs only for 90 days. The Diagnostic Settings define the type of events that are stored or streamed and the outputs—storage account, log analytics workspace, event hub, and others. The Diagnostic Settings, if configured properly, can ensure that all logs are retained for longer duration. This section has recommendations for correctly configuring the Diagnostic Settings so that all logs captured are retained for longer periods.",
+        "Child": "Ensure Diagnostic Setting captures appropriate categories",
+        "Child Description": "A Diagnostic Setting must exist. If a Diagnostic Setting does not exist, the navigation and options within this recommendation will not be available. Please review the recommendation at the beginning of this subsection titled: 'Ensure that a 'Diagnostic Setting' exists.' The diagnostic setting should be configured to log the appropriate activities from the control/management plane.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "5 Logging and Monitoring",
+        "Grand Parent Description": "This section covers security recommendations to follow to set logging and monitoring policies on an Azure Subscription.",
+        "Parent": "5.1 Configuring Diagnostic Settings",
+        "Parent Description": "The Azure Diagnostic Settings capture control/management activities performed on a subscription or Azure AD Tenant. By default, the Azure Portal retains activity logs only for 90 days. The Diagnostic Settings define the type of events that are stored or streamed and the outputs—storage account, log analytics workspace, event hub, and others. The Diagnostic Settings, if configured properly, can ensure that all logs are retained for longer duration. This section has recommendations for correctly configuring the Diagnostic Settings so that all logs captured are retained for longer periods.",
+        "Child": "Ensure the storage container storing the activity logs is not publicly accessible",
+        "Child Description": "The storage account container containing the activity log export should not be publicly accessible.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "5 Logging and Monitoring",
+        "Grand Parent Description": "This section covers security recommendations to follow to set logging and monitoring policies on an Azure Subscription.",
+        "Parent": "5.1 Configuring Diagnostic Settings",
+        "Parent Description": "The Azure Diagnostic Settings capture control/management activities performed on a subscription or Azure AD Tenant. By default, the Azure Portal retains activity logs only for 90 days. The Diagnostic Settings define the type of events that are stored or streamed and the outputs—storage account, log analytics workspace, event hub, and others. The Diagnostic Settings, if configured properly, can ensure that all logs are retained for longer duration. This section has recommendations for correctly configuring the Diagnostic Settings so that all logs captured are retained for longer periods.",
+        "Child": "Ensure the storage account containing the container with activity logs is encrypted with Customer Managed Key",
+        "Child Description": "Storage accounts with the activity log exports can be configured to use Customer Managed Keys (CMK).",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "5 Logging and Monitoring",
+        "Grand Parent Description": "This section covers security recommendations to follow to set logging and monitoring policies on an Azure Subscription.",
+        "Parent": "5.1 Configuring Diagnostic Settings",
+        "Parent Description": "The Azure Diagnostic Settings capture control/management activities performed on a subscription or Azure AD Tenant. By default, the Azure Portal retains activity logs only for 90 days. The Diagnostic Settings define the type of events that are stored or streamed and the outputs—storage account, log analytics workspace, event hub, and others. The Diagnostic Settings, if configured properly, can ensure that all logs are retained for longer duration. This section has recommendations for correctly configuring the Diagnostic Settings so that all logs captured are retained for longer periods.",
+        "Child": "Ensure that logging for Azure KeyVault is 'Enabled'",
+        "Child Description": "Enable AuditEvent logging for key vault instances to ensure interactions with key vaults are logged and available.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "5 Logging and Monitoring",
+        "Grand Parent Description": "This section covers security recommendations to follow to set logging and monitoring policies on an Azure Subscription.",
+        "Parent": "5.1 Configuring Diagnostic Settings",
+        "Parent Description": "The Azure Diagnostic Settings capture control/management activities performed on a subscription or Azure AD Tenant. By default, the Azure Portal retains activity logs only for 90 days. The Diagnostic Settings define the type of events that are stored or streamed and the outputs—storage account, log analytics workspace, event hub, and others. The Diagnostic Settings, if configured properly, can ensure that all logs are retained for longer duration. This section has recommendations for correctly configuring the Diagnostic Settings so that all logs captured are retained for longer periods.",
+        "Child": "Ensure that Network Security Group Flow logs are captured and sent to Log Analytics",
+        "Child Description": "Ensure that network flow logs are captured and fed into a central log analytics workspace.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "5 Logging and Monitoring",
+        "Grand Parent Description": "This section covers security recommendations to follow to set logging and monitoring policies on an Azure Subscription.",
+        "Parent": "5.1 Configuring Diagnostic Settings",
+        "Parent Description": "The Azure Diagnostic Settings capture control/management activities performed on a subscription or Azure AD Tenant. By default, the Azure Portal retains activity logs only for 90 days. The Diagnostic Settings define the type of events that are stored or streamed and the outputs—storage account, log analytics workspace, event hub, and others. The Diagnostic Settings, if configured properly, can ensure that all logs are retained for longer duration. This section has recommendations for correctly configuring the Diagnostic Settings so that all logs captured are retained for longer periods.",
+        "Child": "Ensure that logging for Azure AppService 'AppServiceHTTPLogs' is enabled.",
+        "Child Description": "Enable AppServiceHTTPLogs diagnostic log category for Azure App Service instances to ensure all http requests are captured and centrally logged.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "5 Logging and Monitoring",
+        "Grand Parent Description": "This section covers security recommendations to follow to set logging and monitoring policies on an Azure Subscription.",
+        "Parent": "5.2 Monitoring using Activity Log Alerts",
+        "Parent Description": "The recommendations provided in this section are intended to provide entry-level alerting for crucial activities on a tenant account. These recommended activities should be tuned to your needs. By default, each of these Activity Log Alerts tends to guide the reader to alerting at the \"Subscription-wide\" level which will capture and alert on rules triggered by all resources and resource groups contained within a subscription. This is not an ideal rule set for Alerting within larger and more complex organizations.",
+        "Child": "Ensure that Activity Log Alert exists for Create Policy Assignment",
+        "Child Description": "Create an activity log alert for the Create Policy Assignment event.",
+        "Grand Child": "Activity log alert does not exists for create policy assignment event.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "5 Logging and Monitoring",
+        "Grand Parent Description": "This section covers security recommendations to follow to set logging and monitoring policies on an Azure Subscription.",
+        "Parent": "5.2 Monitoring using Activity Log Alerts",
+        "Parent Description": "The recommendations provided in this section are intended to provide entry-level alerting for crucial activities on a tenant account. These recommended activities should be tuned to your needs. By default, each of these Activity Log Alerts tends to guide the reader to alerting at the \"Subscription-wide\" level which will capture and alert on rules triggered by all resources and resource groups contained within a subscription. This is not an ideal rule set for Alerting within larger and more complex organizations.",
+        "Child": "Ensure that Activity Log Alert exists for Delete Policy Assignment",
+        "Child Description": "Create an activity log alert for the Delete Policy Assignment event.",
+        "Grand Child": "Activity log alert does not exists for delete policy assignment event.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "5 Logging and Monitoring",
+        "Grand Parent Description": "This section covers security recommendations to follow to set logging and monitoring policies on an Azure Subscription.",
+        "Parent": "5.2 Monitoring using Activity Log Alerts",
+        "Parent Description": "The recommendations provided in this section are intended to provide entry-level alerting for crucial activities on a tenant account. These recommended activities should be tuned to your needs. By default, each of these Activity Log Alerts tends to guide the reader to alerting at the \"Subscription-wide\" level which will capture and alert on rules triggered by all resources and resource groups contained within a subscription. This is not an ideal rule set for Alerting within larger and more complex organizations.",
+        "Child": "Ensure that Activity Log Alert exists for Create or Update Network Security Group",
+        "Child Description": "Create an Activity Log Alert for the Create or Update Network Security Group event.",
+        "Grand Child": "Activity log alert does not exists for create or update Network Security Group event.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "5 Logging and Monitoring",
+        "Grand Parent Description": "This section covers security recommendations to follow to set logging and monitoring policies on an Azure Subscription.",
+        "Parent": "5.2 Monitoring using Activity Log Alerts",
+        "Parent Description": "The recommendations provided in this section are intended to provide entry-level alerting for crucial activities on a tenant account. These recommended activities should be tuned to your needs. By default, each of these Activity Log Alerts tends to guide the reader to alerting at the \"Subscription-wide\" level which will capture and alert on rules triggered by all resources and resource groups contained within a subscription. This is not an ideal rule set for Alerting within larger and more complex organizations.",
+        "Child": "Ensure that Activity Log Alert exists for Delete Network Security Group",
+        "Child Description": "Create an activity log alert for the Delete Network Security Group event.",
+        "Grand Child": "Activity log alert does not exists for delete Network Security Group event.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "5 Logging and Monitoring",
+        "Grand Parent Description": "This section covers security recommendations to follow to set logging and monitoring policies on an Azure Subscription.",
+        "Parent": "5.2 Monitoring using Activity Log Alerts",
+        "Parent Description": "The recommendations provided in this section are intended to provide entry-level alerting for crucial activities on a tenant account. These recommended activities should be tuned to your needs. By default, each of these Activity Log Alerts tends to guide the reader to alerting at the \"Subscription-wide\" level which will capture and alert on rules triggered by all resources and resource groups contained within a subscription. This is not an ideal rule set for Alerting within larger and more complex organizations.",
+        "Child": "Ensure that Activity Log Alert exists for Create or Update Security Solution",
+        "Child Description": "Create an activity log alert for the Create or Update Security Solution event.",
+        "Grand Child": "Activity log alert does not exists for create or update Security Solution event.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "5 Logging and Monitoring",
+        "Grand Parent Description": "This section covers security recommendations to follow to set logging and monitoring policies on an Azure Subscription.",
+        "Parent": "5.2 Monitoring using Activity Log Alerts",
+        "Parent Description": "The recommendations provided in this section are intended to provide entry-level alerting for crucial activities on a tenant account. These recommended activities should be tuned to your needs. By default, each of these Activity Log Alerts tends to guide the reader to alerting at the \"Subscription-wide\" level which will capture and alert on rules triggered by all resources and resource groups contained within a subscription. This is not an ideal rule set for Alerting within larger and more complex organizations.",
+        "Child": "Ensure that Activity Log Alert exists for Delete Security Solution",
+        "Child Description": "Create an activity log alert for the Delete Security Solution event.",
+        "Grand Child": "Activity log alert does not exists for delete Security Solution event.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "5 Logging and Monitoring",
+        "Grand Parent Description": "This section covers security recommendations to follow to set logging and monitoring policies on an Azure Subscription.",
+        "Parent": "5.2 Monitoring using Activity Log Alerts",
+        "Parent Description": "The recommendations provided in this section are intended to provide entry-level alerting for crucial activities on a tenant account. These recommended activities should be tuned to your needs. By default, each of these Activity Log Alerts tends to guide the reader to alerting at the \"Subscription-wide\" level which will capture and alert on rules triggered by all resources and resource groups contained within a subscription. This is not an ideal rule set for Alerting within larger and more complex organizations.",
+        "Child": "Ensure that Activity Log Alert exists for Create or Update SQL Server Firewall Rule",
+        "Child Description": "Create an activity log alert for the Create or Update SQL Server Firewall Rule event.",
+        "Grand Child": "Activity Log Alert does not exists for Create or Update SQL Server Firewall Rule.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "5 Logging and Monitoring",
+        "Grand Parent Description": "This section covers security recommendations to follow to set logging and monitoring policies on an Azure Subscription.",
+        "Parent": "5.2 Monitoring using Activity Log Alerts",
+        "Parent Description": "The recommendations provided in this section are intended to provide entry-level alerting for crucial activities on a tenant account. These recommended activities should be tuned to your needs. By default, each of these Activity Log Alerts tends to guide the reader to alerting at the \"Subscription-wide\" level which will capture and alert on rules triggered by all resources and resource groups contained within a subscription. This is not an ideal rule set for Alerting within larger and more complex organizations.",
+        "Child": "Ensure that Activity Log Alert exists for Delete SQL Server Firewall Rule",
+        "Child Description": "Create an activity log alert for the 'Delete SQL Server Firewall Rule.'",
+        "Grand Child": "Activity Log Alert does not exists for Delete SQL Server Firewall Rule.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "5 Logging and Monitoring",
+        "Grand Parent Description": "This section covers security recommendations to follow to set logging and monitoring policies on an Azure Subscription.",
+        "Parent": "5.2 Monitoring using Activity Log Alerts",
+        "Parent Description": "The recommendations provided in this section are intended to provide entry-level alerting for crucial activities on a tenant account. These recommended activities should be tuned to your needs. By default, each of these Activity Log Alerts tends to guide the reader to alerting at the \"Subscription-wide\" level which will capture and alert on rules triggered by all resources and resource groups contained within a subscription. This is not an ideal rule set for Alerting within larger and more complex organizations.",
+        "Child": "Ensure that Activity Log Alert exists for Create or Update Public IP Address rule",
+        "Child Description": "Create an activity log alert for the Create or Update Public IP Addresses rule.",
+        "Grand Child": "Activity Log Alert does not exists for Create or Update Public IP Address rule.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "5 Logging and Monitoring",
+        "Grand Parent Description": "This section covers security recommendations to follow to set logging and monitoring policies on an Azure Subscription.",
+        "Parent": "5.2 Monitoring using Activity Log Alerts",
+        "Parent Description": "The recommendations provided in this section are intended to provide entry-level alerting for crucial activities on a tenant account. These recommended activities should be tuned to your needs. By default, each of these Activity Log Alerts tends to guide the reader to alerting at the \"Subscription-wide\" level which will capture and alert on rules triggered by all resources and resource groups contained within a subscription. This is not an ideal rule set for Alerting within larger and more complex organizations.",
+        "Child": "Ensure that Activity Log Alert exists for Delete Public IP Address rule",
+        "Child Description": "Create an activity log alert for the Delete Public IP Address rule.",
+        "Grand Child": "Activity Log Alert does not exists for Delete Public IP Address rule.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "5 Logging and Monitoring",
+        "Grand Parent Description": "This section covers security recommendations to follow to set logging and monitoring policies on an Azure Subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Azure Monitor Resource Logging is Enabled for All Services that Support it",
+        "Child Description": "Resource Logs capture activity to the data access plane while the Activity log is a subscription-level log for the control plane. Resource-level diagnostic logs provide insight into operations that were performed within that resource itself; for example, reading or updating a secret from a Key Vault.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that RDP from the internet access is evaluated and restricted",
+        "Child Description": "Network security groups should be periodically evaluated for port misconfigurations. Where certain ports and protocols may be exposed to the Internet, they should be evaluated for necessity and restricted wherever they are not explicitly required.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that SSH access from the internet is evaluated and restricted",
+        "Child Description": "Network security groups should be periodically evaluated for port misconfigurations. Where certain ports and protocols may be exposed to the Internet, they should be evaluated for necessity and restricted wherever they are not explicitly required.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that UDP access from the Internet is evaluated and restricted",
+        "Child Description": "Network security groups should be periodically evaluated for port misconfigurations. Where certain ports and protocols may be exposed to the Internet, they should be evaluated for necessity and restricted wherever they are not explicitly required.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that HTTP(S) access from the Internet is evaluated and restricted",
+        "Child Description": "Network security groups should be periodically evaluated for port misconfigurations. Where certain ports and protocols may be exposed to the Internet, they should be evaluated for necessity and restricted wherever they are not explicitly required and narrowly configured.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Security Group Flow Log retention period is 'greater than 90 days'",
+        "Child Description": "Network Security Group Flow Logs should be enabled and the retention period is set to greater than or equal to 90 days.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in brazilsouth.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in westcentralus.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in jioindiacentral.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in polandcentral.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in jioindiawest.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in southcentralus.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in westus2.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in francecentral.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in uaecentral.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in japaneast.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in switzerlandwest.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in francesouth.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in qatarcentral.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in switzerlandnorth.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in norwaywest.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in australiacentral.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in northeurope.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in westus.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in swedencentral.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in westus3.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in uaenorth.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in eastasia.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in japanwest.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in centralindia.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in southafricanorth.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in brazilus.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in eastus2.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in westeurope.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in australiaeast.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in canadacentral.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in southafricawest.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in germanynorth.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in southeastasia.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in eastus.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in northcentralus.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in australiasoutheast.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in ukwest.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in koreasouth.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in centralus.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in brazilsoutheast.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in canadaeast.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in westindia.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in uksouth.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in southindia.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in koreacentral.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in australiacentral2.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in germanywestcentral.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "6 Networking",
+        "Grand Parent Description": "This section covers security recommendations to follow in order to set networking policies on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Network Watcher is 'Enabled'",
+        "Child Description": "Enable Network Watcher for Azure subscriptions.",
+        "Grand Child": "Network watcher not enabled in norwayeast.",
+        "2023-09-07 11:00:00": "Alarm"
+    },
+    {
+        "Grand Parent": "7 Virtual Machines",
+        "Grand Parent Description": "This section covers security recommendations to follow for the configuration of Virtual Machines on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure Virtual Machines are utilizing Managed Disks",
+        "Child Description": "Migrate BLOB based VHD's to Managed Disks on Virtual Machines to exploit the default features of this configuration.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "7 Virtual Machines",
+        "Grand Parent Description": "This section covers security recommendations to follow for the configuration of Virtual Machines on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that 'OS and Data' disks are encrypted with Customer Managed Key (CMK)",
+        "Child Description": "Ensure that OS disks (boot volumes) and data disks (non-boot volumes) are encrypted with CMK (Customer Managed Keys). Customer Managed keys can be either ADE or Server Side Encryption(SSE).",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "7 Virtual Machines",
+        "Grand Parent Description": "This section covers security recommendations to follow for the configuration of Virtual Machines on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that 'Unattached disks' are encrypted with CMK",
+        "Child Description": "Ensure that unattached disks in a subscription are encrypted with a Customer Managed Key (CMK).",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "7 Virtual Machines",
+        "Grand Parent Description": "This section covers security recommendations to follow for the configuration of Virtual Machines on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that only approved extensions are installed",
+        "Child Description": "For added security only install organization-approved extensions on VMs.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "7 Virtual Machines",
+        "Grand Parent Description": "This section covers security recommendations to follow for the configuration of Virtual Machines on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that the endpoint protection for all Virtual Machines is installed",
+        "Child Description": "Install endpoint protection for all virtual machines.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "7 Virtual Machines",
+        "Grand Parent Description": "This section covers security recommendations to follow for the configuration of Virtual Machines on an Azure subscription.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that VHD's are encrypted",
+        "Child Description": "VHD (Virtual Hard Disks) are stored in blob storage and are the old-style disks that were attached to Virtual Machines. The blob VHD was then leased to the VM. By default, storage accounts are not encrypted, and Microsoft Defender will then recommend that the OS disks should be encrypted. Storage accounts can be encrypted as a whole using PMK or CMK. This should be turned on for storage accounts containing VHDs.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "8 Other Security Considerations",
+        "Grand Parent Description": "This section covers security recommendations to follow for the configuration and use of Azure Key Vault.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that the Expiration Date is set for all Keys in RBAC Key Vaults",
+        "Child Description": "Ensure that all Keys in Role Based Access Control (RBAC) Azure Key Vaults have an expiration time set.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "8 Other Security Considerations",
+        "Grand Parent Description": "This section covers security recommendations to follow for the configuration and use of Azure Key Vault.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that the Expiration Date is set for all Keys in Non-RBAC Key Vaults",
+        "Child Description": "Ensure that all Keys in Non Role Based Access Control (RBAC) Azure Key Vaults have an expiration time set.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "8 Other Security Considerations",
+        "Grand Parent Description": "This section covers security recommendations to follow for the configuration and use of Azure Key Vault.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that the Expiration Date is set for all Secrets in RBAC Key Vaults",
+        "Child Description": "Ensure that all Secrets in Role Based Access Control (RBAC) Azure Key Vaults have an expiration time set.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "8 Other Security Considerations",
+        "Grand Parent Description": "This section covers security recommendations to follow for the configuration and use of Azure Key Vault.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that the Expiration Date is set for all Secrets in Non-RBAC Key Vaults",
+        "Child Description": "Ensure that all Secrets in Non Role Based Access Control (RBAC) Azure Key Vaults have an expiration time set.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "8 Other Security Considerations",
+        "Grand Parent Description": "This section covers security recommendations to follow for the configuration and use of Azure Key Vault.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure the key vault is recoverable",
+        "Child Description": "The key vault contains object keys, secrets and certificates. Accidental unavailability of a key vault can cause immediate data loss or loss of security functions (authentication, validation, verification, non-repudiation, etc.) supported by the key vault objects. It is recommended the key vault be made recoverable by enabling the \"Do Not Purge\" and \"Soft Delete\" functions.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "8 Other Security Considerations",
+        "Grand Parent Description": "This section covers security recommendations to follow for the configuration and use of Azure Key Vault.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Enable Role Based Access Control for Azure Key Vault",
+        "Child Description": "Role assignments disappear when a Key Vault has been deleted (soft- delete) and recovered. Afterwards it will be required to recreate all role assignments. This is a limitation of the soft-delete feature across all Azure services.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "8 Other Security Considerations",
+        "Grand Parent Description": "This section covers security recommendations to follow for the configuration and use of Azure Key Vault.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Private Endpoints are Used for Azure Key Vault",
+        "Child Description": "Private endpoints will secure network traffic from Azure Key Vault to the resources requesting secrets and keys.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "8 Other Security Considerations",
+        "Grand Parent Description": "This section covers security recommendations to follow for the configuration and use of Azure Key Vault.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure Automatic Key Rotation is Enabled Within Azure Key Vault for the Supported Services",
+        "Child Description": "Automatic Key Rotation is available in Public Preview. The currently supported applications are Key Vault, Managed Disks, and Storage accounts accessing keys within Key Vault. The number of supported applications will incrementally increased.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "9 AppService",
+        "Grand Parent Description": "This section covers security recommendations for Azure AppService.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure App Service Authentication is set up for apps in Azure App Service",
+        "Child Description": "Azure App Service Authentication is a feature that can prevent anonymous HTTP requests from reaching the API app, or authenticate those that have tokens before they reach the API app. If an anonymous request is received from a browser, App Service will redirect to a logon page. To handle the logon process, a choice from a set of identity providers can be made, or a custom authentication mechanism can be implemented.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "9 AppService",
+        "Grand Parent Description": "This section covers security recommendations for Azure AppService.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure web app redirects all HTTP traffic to HTTPS in Azure App Service",
+        "Child Description": "Azure Web Apps allows sites to run under both HTTP and HTTPS by default. Web apps can be accessed by anyone using non-secure HTTP links by default. Non-secure HTTP requests can be restricted and all HTTP requests redirected to the secure HTTPS port. It is recommended to enforce HTTPS-only traffic.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "9 AppService",
+        "Grand Parent Description": "This section covers security recommendations for Azure AppService.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure web app is using the latest version of TLS encryption",
+        "Child Description": "The TLS(Transport Layer Security) protocol secures transmission of data over the internet using standard encryption technology. Encryption should be set with the latest version of TLS. App service allows TLS 1.2 by default, which is the recommended TLS level by industry standards, such as PCI DSS.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "9 AppService",
+        "Grand Parent Description": "This section covers security recommendations for Azure AppService.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure the web app has 'Client Certificates (Incoming client certificates)' set to 'On'",
+        "Child Description": "Client certificates allow for the app to request a certificate for incoming requests. Only clients that have a valid certificate will be able to reach the app.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "9 AppService",
+        "Grand Parent Description": "This section covers security recommendations for Azure AppService.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Register with Azure Active Directory is enabled on App Service",
+        "Child Description": "Managed service identity in App Service makes the app more secure by eliminating secrets from the app, such as credentials in the connection strings. When registering with Azure Active Directory in the app service, the app will connect to other Azure services securely without the need of username and passwords.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "9 AppService",
+        "Grand Parent Description": "This section covers security recommendations for Azure AppService.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that 'PHP version' is the latest, if used to run the web app",
+        "Child Description": "Periodically newer versions are released for PHP software either due to security flaws or to include additional functionality. Using the latest PHP version for web apps is recommended in order to take advantage of security fixes, if any, and/or additional functionalities of the newer version.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "9 AppService",
+        "Grand Parent Description": "This section covers security recommendations for Azure AppService.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that 'Python version' is the latest stable version, if used to run the web app",
+        "Child Description": "Periodically, newer versions are released for Python software either due to security flaws or to include additional functionality. Using the latest Python version for web apps is recommended in order to take advantage of security fixes, if any, and/or additional functionalities of the newer version.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "9 AppService",
+        "Grand Parent Description": "This section covers security recommendations for Azure AppService.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that 'Java version' is the latest, if used to run the web app",
+        "Child Description": "Periodically, newer versions are released for Java software either due to security flaws or to include additional functionality. Using the latest Java version for web apps is recommended in order to take advantage of security fixes, if any, and/or new functionalities of the newer version.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "9 AppService",
+        "Grand Parent Description": "This section covers security recommendations for Azure AppService.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that 'HTTP Version' is the latest, if used to run the web app",
+        "Child Description": "Periodically, newer versions are released for HTTP either due to security flaws or to include additional functionality. Using the latest HTTP version for web apps to take advantage of security fixes, if any, and/or new functionalities of the newer version.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "9 AppService",
+        "Grand Parent Description": "This section covers security recommendations for Azure AppService.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure FTP deployments are disabled",
+        "Child Description": "By default, Azure Functions, Web and API Services can be deployed over FTP. If FTP is required for an essential deployment workflow, FTPS should be required for FTP login for all App Service Apps and Functions.",
+        "Grand Child": "Not applicable.",
+        "2023-09-07 11:00:00": "Not applicable"
+    },
+    {
+        "Grand Parent": "9 AppService",
+        "Grand Parent Description": "This section covers security recommendations for Azure AppService.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure Azure Keyvaults are used to store secrets",
+        "Child Description": "Encryption keys, Certificate thumbprints and Managed Identity Credentials can be coded into the APP service, this renders them visible as part of the configuration, to maintain security of these keys it is better to store in an Azure Keyvault and reference them from the Keyvault.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    },
+    {
+        "Grand Parent": "10 Miscellaneous",
+        "Grand Parent Description": "This section covers security recommendations for Miscellaneous.",
+        "Parent": "",
+        "Parent Description": "",
+        "Child": "Ensure that Resource Locks are set for Mission-Critical Azure Resources",
+        "Child Description": "Resource Manager Locks provide a way for administrators to lock down Azure resources to prevent deletion of, or modifications to, a resource. These locks sit outside of the Role Based Access Controls (RBAC) hierarchy and, when applied, will place restrictions on the resource for all users. These locks are very useful when there is an important resource in a subscription that users should not be able to delete or change. Locks can help prevent accidental and malicious changes or deletion.",
+        "Grand Child": "Manual verification required.",
+        "2023-09-07 11:00:00": "Manual"
+    }
+]

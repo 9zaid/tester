@@ -1,0 +1,705 @@
+{
+	"info": {
+		"_postman_id": "eb836bb3-034a-46cc-bee1-b77a884e7250",
+		"name": "Cloaked Privacy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "set/uuid",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"device_name\": \"iPhone 14 Plus\", \"platform\": \"ios/Simulator iPhone 14 Plus\", \"app_key\": \"ui123\", \"created_at\": 4455679428338, \"uuid\": \"592F91EE-BC8E-4E50-A6E2-1B8184CF13AA\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://Api.cloakedprivacy.com/set/uuid",
+					"protocol": "https",
+					"host": [
+						"Api",
+						"cloakedprivacy",
+						"com"
+					],
+					"path": [
+						"set",
+						"uuid"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get/server/list",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"uuid\": \"592F91EE-BC8E-4E50-A6E2-1B8184CF132221AA\",\n    \"app_key\": \"ui123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://Api.cloakedprivacy.com/get/server/list",
+					"protocol": "https",
+					"host": [
+						"Api",
+						"cloakedprivacy",
+						"com"
+					],
+					"path": [
+						"get",
+						"server",
+						"list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get/tunnel/config/connect",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"uuid\": \"592F91EE-BC8E-4E50-A6E2-1B8184CF13AA\",\n    \"app_key\": \"ui123\",\n    \"server_id\": 101\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://Api.cloakedprivacy.com/get/tunnel/config/connect",
+					"protocol": "https",
+					"host": [
+						"Api",
+						"cloakedprivacy",
+						"com"
+					],
+					"path": [
+						"get",
+						"tunnel",
+						"config",
+						"connect"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "disconnect/server",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"uuid\": \"test-demo\",\n    \"app_key\": \"ui123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://Api.cloakedprivacy.com/disconnect/server",
+					"protocol": "https",
+					"host": [
+						"Api",
+						"cloakedprivacy",
+						"com"
+					],
+					"path": [
+						"disconnect",
+						"server"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "apply/policy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"uuid\": \"592F91EE-BC8E-4E50-A6E2-1B8184CF13AA\",\n    \"app_key\": \"ui123\",\n    \"policy\": \"restrict\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://Api.cloakedprivacy.com/apply/policy",
+					"protocol": "https",
+					"host": [
+						"Api",
+						"cloakedprivacy",
+						"com"
+					],
+					"path": [
+						"apply",
+						"policy"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "set/payment/plan",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"uuid\": \"592F91EE-BC8E-4E50-A6E2-1B8184CF13AA\",\n    \"app_key\": \"ui123\",\n    \"payment\": {\n        \"is_paid\": true,\n        \"is_plan_active\": true,\n        \"method\": \"apple\",\n        \"timestamp\": 1677721301,\n        \"plan\": \"monthly\",\n        \"amount\": \"600$\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://Api.cloakedprivacy.com/set/payment/plan",
+					"protocol": "https",
+					"host": [
+						"Api",
+						"cloakedprivacy",
+						"com"
+					],
+					"path": [
+						"set",
+						"payment",
+						"plan"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get/payment/plan",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"uuid\": \"592F91EE-BC8E-4E50-A6E2-1B8184CF13AA\",\n    \"app_key\": \"ui123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://Api.cloakedprivacy.com/get/payment/plan",
+					"protocol": "https",
+					"host": [
+						"Api",
+						"cloakedprivacy",
+						"com"
+					],
+					"path": [
+						"get",
+						"payment",
+						"plan"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "search/url",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"uuid\": \"8F592749-5F2C-4286-84E6-AC455E335B88\",\n    \"app_key\": \"ui123\",\n    \"url\": \"facebook.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gratisnom1.cytex.io/search/url",
+					"protocol": "https",
+					"host": [
+						"gratisnom1",
+						"cytex",
+						"io"
+					],
+					"path": [
+						"search",
+						"url"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "feature/request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"uuid\": \"test-demo\",\n    \"app_key\": \"ui123\",\n    \"data\": {\n        \"url\": \"facebook.com\",\n        \"sources\": [\n            \"Phishing\",\n            \"Deny List\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gratisnom1.cytex.io/feature/request",
+					"protocol": "https",
+					"host": [
+						"gratisnom1",
+						"cytex",
+						"io"
+					],
+					"path": [
+						"feature",
+						"request"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://gratisnom1.cytex.io/disconnect/server",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\n{\n    \"uuid\": \"test-demo\",\n    \"app_key\": \"ui123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gratisnom1.cytex.io/disconnect/server",
+					"protocol": "https",
+					"host": [
+						"gratisnom1",
+						"cytex",
+						"io"
+					],
+					"path": [
+						"disconnect",
+						"server"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://gratisnom1.cytex.io/set/payment/plan",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"uuid\": \"test-demo\",\n\"app_key\": \"ui123\",\n\"payment\":  {\n\"is_paid\": true,\n\"is_plan_active\": true,\n\"method\": \"apple\",\n\"timespamp\": \"1677721301\",\n\"plan\": \"monthly\",\n\"amount\": \"600$\"}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gratisnom1.cytex.io/set/payment/plan",
+					"protocol": "https",
+					"host": [
+						"gratisnom1",
+						"cytex",
+						"io"
+					],
+					"path": [
+						"set",
+						"payment",
+						"plan"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://gratisnom1.cytex.io/disconnect/server",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\t\"uuid\" : \"asdCVwer3$@@REFzdcre\",\n\t\t\"app_key\" : \"ui123\"\n\t}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://Api.cloakedprivacy.com/disconnect/server",
+					"protocol": "https",
+					"host": [
+						"Api",
+						"cloakedprivacy",
+						"com"
+					],
+					"path": [
+						"disconnect",
+						"server"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "first Time login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t    \"uuid\": \"592F91EE-BC8E-4E50-A6E2-1B8184CF13AA\",\n\t    \"app_key\": \"ui123\",\n\t    \"device_type\": \"ios\",\n\t    \"first_name\": \"\",\n\t    \"joined_timestamp\": 1680793367,\n\t    \"last_name\": \"\",\n\t    \"login_type\": \"apple\",\n\t    \"password\": \"da39a3ee5e6b4b0d3255bfef95601890afd80709\",\n\t    \"username\": \"\",\n\t    \"authorization_token\": \"cf912254af1cf4ea693e5de191859c12b.0.sryvu.6LGtMUXOWNQJ5xU0-7RKEw\",\n\t    \"auth_token\": \"cKlFXoaHkkp_s71StR8t_u:APA91bFCqrC_RlsfVDN5T1cqp85mDtJ3l-ObE1FNtGs5BYE0P1W4wAOyZste3yQeEBYvoQZLbCMVYtIsRrNGX0TFSi65VC11o6JPl7_44ftKCJil85sxQzR3CtCGeDaUYtoyw8z-EMXa\",\n\t    \"device_token\": \"cKlFXoaHkkp_s71StR8t_u:APA91bFCqrC_RlsfVDN5T1cqp85mDtJ3l-ObE1FNtGs5BYE0P1W4wAOyZste3yQeEBYvoQZLbCMVYtIsRrNGX0TFSi65VC11o6JPl7_44ftKCJil85sxQzR3CtCGeDaUYtoyw8z-EMXa\",\n\t    \"apple_token\": \"eyJraWQiOiJXNldjT0tCIiwiYWxnIjoiUlMyNTYifQ.eyJpc3MiOiJodHRwczovL2FwcGxlaWQuYXBwbGUuY29tIiwiYXVkIjoiYXBwcy5jbG9ha2VkcHJpdmFjeS5jb20iLCJleHAiOjE2ODA4Nzk3NjYsImlhdCI6MTY4MDc5MzM2Niwic3ViIjoiMDAxODU0LjEwZmZjZTRmMjUxYjQxMDRhNjY2YmJmOWMyMzc3MTkwLjEzMjQiLCJjX2hhc2giOiJNSlVQNFJ1UFNndlZ1SExsVFZZZW1RIiwiZW1haWwiOiJkZ3lnZnI1cGZ3QHByaXZhdGVyZWxheS5hcHBsZWlkLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjoidHJ1ZSIsImlzX3ByaXZhdGVfZW1haWwiOiJ0cnVlIiwiYXV0aF90aW1lIjoxNjgwNzkzMzY2LCJub25jZV9zdXBwb3J0ZWQiOnRydWV9.FXEHFKP5qskarWtRflsCuRkzGIlgZXYZmiDDTRGWX1PiQb9wLK_09yw5eaFgajmylaC4qy9KFpE1dr0mMojWtVEQ6gI0zRW-xGsXx1SSSlFt-46CpPU7y4xKAoNzOiBkGJw-w8jc5SPpCHH7lkXpxDNndNVDgkXR2NLoPtn8pa02sGzFW-JvUxIJ02fLVqHkArFvuhGyQWk8gI3y6Ur9vpPcu7csCIh1HCkR39MEmaqBI1HFzZYiapt0-agRhz9-mSoeb3tcYiZfx5Dhj7osqXLyEu7aJCWtCxH8vWSpkS7zjg9elsXZL1aYUY1zEphY7RCGUeZbAArMTl7uLwqSgQ\"\n\t}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://Api.cloakedprivacy.com/login",
+					"protocol": "https",
+					"host": [
+						"Api",
+						"cloakedprivacy",
+						"com"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "secondTime Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\"uuid\": \"592F91EE-BC8E-4E50-A6E2-1B8184CF13AA\",\n\t    \"app_key\": \"ui123\",\n\t    \"device_type\": \"ios\",\n\t    \"first_name\": \"\",\n\t    \"joined_timestamp\": 1680793367,\n\t    \"last_name\": \"\",\n\t    \"login_type\": \"apple\",\n\t    \"password\": \"da39a3ee5e6b4b0d3255bfef95601890afd80709\",\n\t    \"username\": \"\",\n\t    \"authorization_token\": \"cf912254af1cf4ea693e5de191859c12b.0.sryvu.6LGtMUXOWNQJ5xU0-7RKEw\",\n\t    \"auth_token\": \"cKlFXoaHkkp_s71StR8t_u:APA91bFCqrC_RlsfVDN5T1cqp85mDtJ3l-ObE1FNtGs5BYE0P1W4wAOyZste3yQeEBYvoQZLbCMVYtIsRrNGX0TFSi65VC11o6JPl7_44ftKCJil85sxQzR3CtCGeDaUYtoyw8z-EMXa\",\n\t    \"device_token\": \"cKlFXoaHkkp_s71StR8t_u:APA91bFCqrC_RlsfVDN5T1cqp85mDtJ3l-ObE1FNtGs5BYE0P1W4wAOyZste3yQeEBYvoQZLbCMVYtIsRrNGX0TFSi65VC11o6JPl7_44ftKCJil85sxQzR3CtCGeDaUYtoyw8z-EMXa\",\n\t    \"apple_token\": \"eyJraWQiOiJXNldjT0tCIiwiYWxnIjoiUlMyNTYifQ.eyJpc3MiOiJodHRwczovL2FwcGxlaWQuYXBwbGUuY29tIiwiYXVkIjoiYXBwcy5jbG9ha2VkcHJpdmFjeS5jb20iLCJleHAiOjE2ODA4Nzk3NjYsImlhdCI6MTY4MDc5MzM2Niwic3ViIjoiMDAxODU0LjEwZmZjZTRmMjUxYjQxMDRhNjY2YmJmOWMyMzc3MTkwLjEzMjQiLCJjX2hhc2giOiJNSlVQNFJ1UFNndlZ1SExsVFZZZW1RIiwiZW1haWwiOiJkZ3lnZnI1cGZ3 { QHByaXZhdGVyZWxheS5hcHBsZWlkLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjoidHJ1ZSIsImlzX3ByaXZhdGVfZW1haWwiOiJ0cnVlIiwiYXV0aF90aW1lIjoxNjgwNzkzMzY2LCJub25jZV9zdXBwb3J0ZWQiOnRydWV9.FXEHFKP5qskarWtRflsCuRkzGIlgZXYZmiDDTRGWX1PiQb9wLK_09yw5eaFgajmylaC4qy9KFpE1dr0mMojWtVEQ6gI0zRW-xGsXx1SSSlFt-46CpPU7y4xKAoNzOiBkGJw-w8jc5SPpCHH7lkXpxDNndNVDgkXR2NLoPtn8pa02sGzFW-JvUxIJ02fLVqHkArFvuhGyQWk8gI3y6Ur9vpPcu7csCIh1HCkR39MEmaqBI1HFzZYiapt0-agRhz9-mSoeb3tcYiZfx5Dhj7osqXLyEu7aJCWtCxH8vWSpkS7zjg9elsXZL1aYUY1zEphY7RCGUeZbAArMTl7uLwqSgQ\"\n\t}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://Api.cloakedprivacy.com/login",
+					"protocol": "https",
+					"host": [
+						"Api",
+						"cloakedprivacy",
+						"com"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete/account",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"uuid\": \"592F91EE-BC8E-4E50-A6E2-1B8184CF13AA\",\n    \"app_key\": \"ui123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://Api.cloakedprivacy.com/delete/account",
+					"protocol": "https",
+					"host": [
+						"Api",
+						"cloakedprivacy",
+						"com"
+					],
+					"path": [
+						"delete",
+						"account"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "logout",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"uuid\": \"592F91EE-BC8E-4E50-A6E2-1B8184CF132221AA\",\n    \"app_key\": \"ui123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://Api.cloakedprivacy.com/logout",
+					"protocol": "https",
+					"host": [
+						"Api",
+						"cloakedprivacy",
+						"com"
+					],
+					"path": [
+						"logout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "remove/login/sessions",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"uuid\": \"592F91EE-BC8E-4E50-A6E2-1B8184CF13AA\",\n\t    \"app_key\": \"ui123\",\n        \"devices\": [\"\"]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://Api.cloakedprivacy.com/remove/login/sessions",
+					"protocol": "https",
+					"host": [
+						"Api",
+						"cloakedprivacy",
+						"com"
+					],
+					"path": [
+						"remove",
+						"login",
+						"sessions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get/policy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"uuid\": \"592F91EE-BC8E-4E50-A6E2-1B8184CF13AA\",\n    \"app_key\": \"ui123\",\n    \"user_type\": \"login\",\n    \"user_id\": \"001854.10ffce4f251b4104a666bbf9c2377190.1324\",\n    \"login_type\":\"apple\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://Api.cloakedprivacy.com/get/policy",
+					"protocol": "https",
+					"host": [
+						"Api",
+						"cloakedprivacy",
+						"com"
+					],
+					"path": [
+						"get",
+						"policy"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://gratisnom1.cytex.io/get/policy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gratisnom1.cytex.io/get/policy",
+					"protocol": "https",
+					"host": [
+						"gratisnom1",
+						"cytex",
+						"io"
+					],
+					"path": [
+						"get",
+						"policy"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get/news/data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"uuid\": \"592F91EE-BC8E-4E50-A6E2-1B8184CF13AA\",\n    \"app_key\": \"ui123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://Api.cloakedprivacy.com/get/news/data",
+					"protocol": "https",
+					"host": [
+						"Api",
+						"cloakedprivacy",
+						"com"
+					],
+					"path": [
+						"get",
+						"news",
+						"data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "developer/blocked/domains",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"uuid\": \"592F91EE-BC8E-4E50-A6E2-1B8184CF132221AA\",\n    \"app_key\": \"ui123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://Api.cloakedprivacy.com/developer/blocked/domains",
+					"protocol": "https",
+					"host": [
+						"Api",
+						"cloakedprivacy",
+						"com"
+					],
+					"path": [
+						"developer",
+						"blocked",
+						"domains"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get/securityfeaturesstatus",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"status\" : \"True\",\n    \"code\" : 200,\n       \"data\" : {\n    \"security_features\": [0,1,1,1],\n    \"timestamp\": 1677721301,\n}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://Api.cloakedprivacy.com/get/securityfeaturesstatus",
+					"protocol": "https",
+					"host": [
+						"Api",
+						"cloakedprivacy",
+						"com"
+					],
+					"path": [
+						"get",
+						"securityfeaturesstatus"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "set/securityfeaturesstatus",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"uuid\": \"592F91EE-BC8E-4E50-A6E2-1B8184CF13AA\",\n    \"app_key\": \"ui123\",\n    \"data\" : {\n    \"security_features\": [0,1,1,1],\n    \"timestamp\": 1677721301,\n}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://Api.cloakedprivacy.com/set/securityfeaturesstatus",
+					"protocol": "https",
+					"host": [
+						"Api",
+						"cloakedprivacy",
+						"com"
+					],
+					"path": [
+						"set",
+						"securityfeaturesstatus"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
